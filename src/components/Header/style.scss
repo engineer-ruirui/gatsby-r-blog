@@ -1,0 +1,12 @@
+.luxbar-menu {
+    background-color: lightgray !important;
+    & li {
+        &:hover{
+            background-color: white !important;
+        }
+    }
+}
+
+.luxbar-hamburger {
+    color: #494949 !important;
+}
