@@ -60,11 +60,12 @@
       top: 30px;
       left: 30px
     }
+
+    lost-column: 2/3;
+    &__inner {
+        padding: 40px 35px;
+    }  
   }
 
-  lost-column: 2/3;
-  &__inner {
-      padding: 40px 35px;
-  }
 
 }
