@@ -10,17 +10,17 @@ tags:
   - "Gatsby"
   - "Typography"
 description: "German inventor Johannes Gutenberg developed a method of movable type and used it to create one of the western world’s first major printed books, the “Forty–Two–Line” Bible."
-# socialImage: "/media/gutenberg.jpg"
+socialImage: "./media/gutenberg.jpg"
 ---
 
 German inventor Johannes Gutenberg developed a method of movable type and used it to create one of the western world’s first major printed books, the “Forty–Two–Line” Bible.
 
 **Johannes Gensfleisch zur Laden zum Gutenberg** (c. 1398 – 1468) was a German blacksmith, goldsmith, printer, and publisher who introduced printing to Europe. His invention of mechanical movable type printing started the Printing Revolution and is widely regarded as the most important event of the modern period. It played a key role in the development of the Renaissance, Reformation, the Age of Enlightenment, and the Scientific revolution and laid the material basis for the modern knowledge-based economy and the spread of learning to the masses.
 
-<!-- <figure class="float-right" style="width: 240px">
-	<img src="/media/gutenberg.jpg" alt="Gutenberg">
+<figure class="float-right" style="width: 240px">
+	<img src="./media/gutenberg.jpg" alt="Gutenberg">
 	<figcaption>Johannes Gutenberg</figcaption>
-</figure> -->
+</figure>
 
 With his invention of the printing press, Gutenberg was the first European to use movable type printing, in around 1439. Among his many contributions to printing are: the invention of a process for mass-producing movable type; the use of oil-based ink; and the use of a wooden printing press similar to the agricultural screw presses of the period. His truly epochal invention was the combination of these elements into a practical system that allowed the mass production of printed books and was economically viable for printers and readers alike. Gutenberg's method for making type is traditionally considered to have included a type metal alloy and a hand mould for casting type. The alloy was a mixture of lead, tin, and antimony that melted at a relatively low temperature for faster and more economical casting, cast well, and created a durable type.
 
@@ -35,7 +35,7 @@ His major work, the Gutenberg Bible (also known as the 42-line Bible), has been 
 Around 1439, Gutenberg was involved in a financial misadventure making polished metal mirrors (which were believed to capture holy light from religious relics) for sale to pilgrims to Aachen: in 1439 the city was planning to exhibit its collection of relics from Emperor Charlemagne but the event was delayed by one year due to a severe flood and the capital already spent could not be repaid. When the question of satisfying the investors came up, Gutenberg is said to have promised to share a “secret”. It has been widely speculated that this secret may have been the idea of printing with movable type. Also around 1439–1440, the Dutch Laurens Janszoon Coster came up with the idea of printing. Legend has it that the idea came to him “like a ray of light”.
 
 <figure class="float-left" style="width: 240px">
-	<img src="/media/printing-press.jpg" alt="Early Printing Press">
+	<img src="./media/printing-press.jpg" alt="Early Printing Press">
 	<figcaption>Early wooden printing press as depicted in 1568.</figcaption>
 </figure>
 
