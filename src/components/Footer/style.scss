@@ -1,0 +1,58 @@
+@import "../../assets/scss/variables";
+@import "../../assets/scss/mixins";
+
+.footer_home{
+  color: #ffffff;
+  font-size: 1.3em;
+  & a{
+    margin: 30px auto;
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.3s ease-in-out;
+    font-family: "Quicksand", "Avenir", "Arial", "Hiragino Kaku Gothic ProN", YuGothic, "Yu Gothic", "Hiragino Sans", "ヒラギノ角ゴシック", "メイリオ", Meiryo, sans-serif;
+  }
+  &:hover,
+  &:focus {
+    color: gray !important;
+    transition: color 0.4s;
+  }
+}
+.footer_home:before{
+  font-family: 'Font Awesome\ 5 Free';
+  margin-right: 10px;
+  content: '\f015';
+  font-weight: 900;
+}
+
+.footer_last{
+  padding-top: 20px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 -1px 3px rgba(0,0,0,0.3);
+  background: lightgray;
+  & p {
+    margin: 10px auto;
+    font-size: .8em !important;
+    color: #ffffff !important;
+    & a {
+      text-decoration: none;
+    }
+  }
+}
+
+@include breakpoint-md {
+    .footer__created{
+      display: block;
+      lost-utility: clearfix;
+      height: 400px;
+      padding-top: 0px;
+      padding-bottom: 20px;
+      padding-right: 40px;
+      padding-left: 40px;
+      color: #494949;
+      text-align: center;
+      box-shadow: 0 -1px 3px rgba(0,0,0,0.3);
+      background: #ffffff;
+    }
+  }
