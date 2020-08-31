@@ -6,6 +6,7 @@ import type { Node as ReactNode } from 'react';
 import { useSiteMetadata } from '../../hooks';
 import styles from './Layout.module.scss';
 import Header from "../Header"
+import Footer from "../Footer"
 
 type Props = {
   children: ReactNode,
@@ -42,6 +43,7 @@ const Layout = ({
         </Helmet>
         {children}
       </div>
+      <Footer />
     </div>
   );
 };
