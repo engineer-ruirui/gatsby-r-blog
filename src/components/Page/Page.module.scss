@@ -3,7 +3,7 @@
 
 .page {
   @include margin-bottom(2);
-  margin-left: 80px;
+  // margin-left: 80px;
   background-color: white;
 
   &__inner {
@@ -40,8 +40,7 @@
 
 @include breakpoint-md {
   .page {
-    lost-column: 7/12;
-    // lost-column: 2/3;    
+    lost-column: 2/3;    
 
     &__inner {
       padding: 40px 35px;

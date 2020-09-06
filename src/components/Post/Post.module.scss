@@ -3,7 +3,7 @@
 
 .post {
   background-color: white;
-  margin-left: 80px;
+  // margin-left: 80px;
 
   &__footer {
     max-width: $layout-post-width;
@@ -46,7 +46,6 @@
     }
   }
 
-  lost-column: 7/12;
   &__inner {
       padding: 30px 20px;
   }
@@ -91,8 +90,7 @@
     //   left: 30px
     // }
 
-    lost-column: 7/12;
-    // lost-column: 2/3;
+    lost-column: 2/3;
     &__inner {
         padding: 40px 35px;
     }  
