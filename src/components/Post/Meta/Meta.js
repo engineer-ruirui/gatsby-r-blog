@@ -9,7 +9,7 @@ type Props = {
 
 const Meta = ({ date }: Props) => (
   <div className={styles['meta']}>
-    <p className={styles['meta__date']}>投稿日 {moment(date).format('YYYY年M月D日')}</p>
+    <p className={styles['meta__date']}>投稿日 {moment(date).format('YYYY/MM/DD')}</p>
   </div>
 );
 
