@@ -122,6 +122,13 @@ module.exports = {
             options: { wrapperStyle: 'margin-bottom: 1.0725rem' }
           },
           'gatsby-remark-autolink-headers',
+          {
+            resolve: 'gatsby-remark-plantuml',
+            options: {
+              maxWidth: '480',
+              attributes: 'max-width: 480;'
+            }
+          },
           'gatsby-remark-prismjs',
           'gatsby-remark-copy-linked-files',
           'gatsby-remark-smartypants',
