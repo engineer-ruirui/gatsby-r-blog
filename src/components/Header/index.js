@@ -30,9 +30,10 @@ export default function Header () {
             id="luxbar-hamburger" htmlFor="luxbar-checkbox"> <span></span> </label>
           </li>
           {/* <li className="luxbar-item"><Link to="/">Blog</Link></li> */}
-          <li className="luxbar-item"><Link to="/about">Profile</Link></li>
+          <li className="luxbar-item"><Link to="/pages/about">Profile</Link></li>
+          <li className="luxbar-item"><Link to="https://engineer-ruirui.github.io">GitHub</Link></li>
           <li className="luxbar-item"><Link to="https://engineer-ruirui.github.io/gitbook-express/">GitBook</Link></li>
-          <li className="luxbar-item"><Link to="/portfolio">Portfolio</Link></li>
+          {/* <li className="luxbar-item"><Link to="/portfolio">Portfolio</Link></li> */}
           <li className="luxbar-item"><Link to="/privacy">Privacy Policy</Link></li>
         </ul>
       </div>
