@@ -39,7 +39,7 @@ const Layout = ({
           <meta name="twitter:title" content={title} />
           <meta name="twitter:description" content={description} />
           <meta name="twitter:image" content={metaImageUrl} />
-          <meta name="google-site-verification" content='8g0hUypvTw_qvB-nFXiVvF9CXEGsWCj4U2HDL10a5TE' />
+          <meta name="google-site-verification" content="8g0hUypvTw_qvB-nFXiVvF9CXEGsWCj4U2HDL10a5TE" />
           <link rel="stylesheet" href="https://cdn.rawgit.com/balzss/luxbar/ae5835e2/build/luxbar.min.css" />
         </Helmet>
         {children}
