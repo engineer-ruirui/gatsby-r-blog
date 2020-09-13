@@ -40,6 +40,7 @@ const Layout = ({
           <meta name="twitter:description" content={description} />
           <meta name="twitter:image" content={metaImageUrl} />
           <link rel="stylesheet" href="https://cdn.rawgit.com/balzss/luxbar/ae5835e2/build/luxbar.min.css" />
+          <script data-ad-client="ca-pub-4451045717128234" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         </Helmet>
         {children}
       </div>
