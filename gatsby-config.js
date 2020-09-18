@@ -132,8 +132,8 @@ module.exports = {
           {
             resolve: 'gatsby-remark-plantuml',
             options: {
-              maxWidth: '480',
-              attributes: 'max-width: 480;'
+              // maxWidth: '480',
+              // attributes: 'max-width: 480;'
             }
           },
           'gatsby-remark-prismjs',
