@@ -4,8 +4,7 @@ import AdSense from 'react-adsense';
 const Adsense = () => (
   <div>
       <AdSense.Google
-          // client={process.env.GOOGLE_ADSENSE_ID}
-          client='pub-4451045717128234'
+          client={process.env.GOOGLE_ADSENSE_ID}
           slot=''
           style={{ display: 'block' }}
           format='auto'
