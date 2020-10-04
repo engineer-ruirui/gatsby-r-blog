@@ -64,6 +64,13 @@ export const query = graphql`
             description
             category
             title
+            thumbnail {
+              childImageSharp {
+                fluid(maxWidth: 640, maxHeight: 360) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }
