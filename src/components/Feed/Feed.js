@@ -3,6 +3,7 @@ import React from 'react';
 import moment from 'moment';
 import { Link } from 'gatsby';
 import type { Edges } from '../../types';
+import Image from 'gatsby-image';
 import styles from './Feed.module.scss';
 
 type Props = {
@@ -25,6 +26,7 @@ const Feed = ({ edges }: Props) => (
             <Link to={edge.node.fields.categorySlug} className={styles['feed__item-meta-category-link']}>{edge.node.frontmatter.category}</Link>
           </span>
         </div>
+        <Image fluid={edge.node.frontmatter.thumbnail.childImageSharp.fluid} />
         <p className={styles['feed__item-description']}>{edge.node.frontmatter.description}</p>
         <Link className={styles['feed__item-readmore']} to={edge.node.fields.slug}>続きを読む</Link>
       </div>

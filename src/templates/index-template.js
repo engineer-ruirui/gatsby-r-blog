@@ -63,6 +63,13 @@ export const query = graphql`
             date
             category
             description
+            thumbnail {
+              childImageSharp {
+                fluid(maxWidth: 640, maxHeight: 360) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }
